@@ -26,7 +26,7 @@ imam:{
     colg:'Techno India'
 }
 };
-
+var varName;
 app.get('/ui/:varName', function (req, res) {
    var name=students[varName[name]];
  var colg=students[varName[colg]];
