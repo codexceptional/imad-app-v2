@@ -29,10 +29,10 @@ imam:{
 var varName;
 app.get('/:varName', function (req, res) {
    var varName=req.params.varName;
-   var name=students[varName[name]];
- var colg=students[varName[colg]];
- var dept=students[varName[dept]];
- var roll=students[varName[roll]];
+   var name=students[varName].name;
+ var colg=students[varName].colg;
+ var dept=students[varName].dept;
+ var roll=students[varName].roll;
   res.send(`<!doctype html>
 <html>
     <head>
