@@ -28,6 +28,7 @@ imam:{
 };
 var varName;
 app.get('/:varName', function (req, res) {
+   var varName=req.params.varName;
    var name=students[varName[name]];
  var colg=students[varName[colg]];
  var dept=students[varName[dept]];
