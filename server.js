@@ -42,7 +42,7 @@ app.get('/:varName', function (req, res) {
         <link href="style.css" rel='stylesheet'>
     </head>
     <body>
-        <div class='container' id='para' style='text:center'>
+        <div class='container' id='para' style='text-align:center'>
             <h1>
                 Personal Credentials.
             </h1>
