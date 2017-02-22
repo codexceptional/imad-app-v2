@@ -26,7 +26,8 @@ imam:{
     colg:'Techno India'
 }
 };
-var varName;
+var varName;//embedding the information of different webpages in a common template 
+//and serving the web page by creating it dynamically at the time of demand
 app.get('/:varName', function (req, res) {
    var varName=req.params.varName;
    var name=students[varName].name;
